@@ -1,0 +1,78 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray1: hsl(0, 0%, 42%);
+    --Gray2: hsl(0, 0%, 7%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--Yellow);
+    font-family: "Figtree", sans-serif;
+}
+
+.container {
+    margin: 1em;
+    padding: 1em;
+    overflow: hidden;
+    background-color: var(--White);
+    border-radius: 17px;
+    border: 1px solid var(--Gray2);
+    box-shadow: 6px 6px 0px var(--Gray2);
+}
+
+.ilustration {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.topic {
+    width: fit-content;
+    font-size: .8em;
+    padding: .5em 1em;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: yellow;
+    margin-bottom: 1em;
+}
+
+.published-date {
+    font-size: .8em;
+    margin-bottom: 1em;
+}
+
+.title {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+.text {
+    font-size: .9em;
+    color: var(--Gray1);
+    margin-bottom: 2em;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: .5em;
+}
+
+.user .user-avatar {
+    width: 15%;
+}
+
+.user .user-name {
+    font-weight: bold;
+}
