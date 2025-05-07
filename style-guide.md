@@ -19,7 +19,7 @@ The designs were created to the following widths:
 - Gray 950: hsl(0, 0%, 7%)
 
 ## Typography
-
+  
 ### Body Copy
 
 - Font size (paragraph): 16px
